@@ -1,12 +1,15 @@
 package com.wyz.aidada.model.vo;
 
-import cn.hutool.json.JSONUtil;
 import com.wyz.aidada.model.entity.Post;
+
+import org.springframework.beans.BeanUtils;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+
+import cn.hutool.json.JSONUtil;
 import lombok.Data;
-import org.springframework.beans.BeanUtils;
 
 /**
  * 帖子视图
